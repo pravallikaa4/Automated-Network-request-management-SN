@@ -1,0 +1,63 @@
+Day 2 – Custom Table Setup & Approval Integration
+
+Objective:
+Build a dedicated table to capture network-related requests and connect it with the approval framework.
+
+Tasks Completed:
+
+Custom Table Creation
+
+Created a new table under the Global application scope.
+
+Table details:
+
+Label: Network Database
+
+Name: u_network_database_table
+
+Field Configuration
+Added fields to capture request details:
+
+Customer Address → String
+
+Request Number → String
+
+Requested For → String
+
+Assignment Group → Reference (Group table)
+
+Work Status → String
+
+Device Details → String
+
+Updates → Integer
+
+Assigned To → Reference (User table)
+
+Date Of Enquiry → Date
+
+Customer Document → String
+
+Relationship with Approvals
+
+Established a relationship named Approval Request.
+
+Source Table: Network Database
+
+Target Table: Approval [sysapproval_approver]
+
+Applied a script filter so only approvals tied to the specific record are fetched.
+
+Form Enhancement
+
+Added the Approval Request related list to the Network Database form using Form Designer.
+
+Tested the form to confirm related list visibility and functionality.
+
+Deliverables:
+
+Exported Update Set containing the module changes.
+
+Stored screenshots in the designated folder.
+
+Updated documentation with latest progress.

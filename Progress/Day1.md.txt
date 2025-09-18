@@ -1,0 +1,52 @@
+Day 1 – Service Catalog Setup
+
+Objective:
+Initiate the project by building a Service Catalog item to log network-related requests and defining the necessary variables.
+
+Activities Completed:
+
+Catalog Item Creation
+
+Designed a new catalog item named “Network Request.”
+
+Variable Configuration
+
+Added multiple input fields:
+
+Text fields → Address, Additional Information, etc.
+
+Reference field → “Opened on behalf of” user.
+
+Select box → Device type options.
+
+Variable Set Creation
+
+Defined a Requestor Information set for reusability across catalog items.
+
+Catalog UI Policy
+
+Applied conditions for better user experience:
+
+Display “Provide details here” only when Device Type = Others.
+
+Dynamically adjusted mandatory/visible behavior for certain fields.
+
+Evidence Collection
+
+Captured screenshots of:
+
+Catalog item setup.
+
+Variable types and configurations.
+
+Variable set creation.
+
+UI policy in action.
+
+Deliverables:
+
+Exported Update Set → Service Catalog module.
+
+Screenshots stored in project folder.
+
+Documentation updated with detailed progress.
